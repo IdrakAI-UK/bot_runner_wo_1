@@ -1,0 +1,21 @@
+sound_device:
+  input: 0 # your input device / vb out
+  output: 1 #your output device/ vb in
+  interim_check: False # possible Value (type bool) True ; False 
+delay_th: 120  # delay threshold in sec (int); to avoid stuck
+mirror: 6 # which is gpu is using 0,1,2,3 
+company_name: 'XAS' 
+os: 'win' # linux , windows, mac do not change the spell
+version: '1.0.0.L_A'  # version of the model
+dated: '19/11/2024 @ 11:34 PM'
+running_mode : 'TRY' # if you have to run try.py make it "TRY" else "PRO"
+auto_unpause: False # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
+chrome_driver: './chrome_driver/chromedriver' # for mac './chrome_driver/chromedriver' for windows './chrome_driver/chromedriver.exe' for linux you can make it empty
+no_response_time: 3.0 # after how much time you will go to are u there
+pause_duration: 0.5 
+block_size: 4000 #ignore
+age: 
+  low: 65 # minimum age
+  high: 100 #max age
+preset: 'D1'
+portal_num: 2
