@@ -19,3 +19,13 @@ age:
   high: 100 #max age
 preset: 'D1'
 portal_num: 2
+dialer_details:
+  transfer: 2
+  pages: ['2','4'] # page 2: welcome page page 3: phone login page 4: user and campaign
+  user_id: '1011'
+  password: '1011'
+  url: ''
+  preset: 'D1'
+  campaign_num: 2
+  call_agent_check: false
+  
