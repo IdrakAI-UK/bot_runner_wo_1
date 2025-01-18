@@ -1,4 +1,37 @@
-For local try user `python try.py`; 
+## First timeß
+To Install Bot Things you need to do following
+1. You need to install anaconda python
+2. you need to create python 3.10 env by following command
+    ```
+    conda create -n bot_env python=3.10
+    ```
+3. You need to install requirements.txt
+    ```
+    conda activate bot_env
+    pip install -r requirements.txt
+    ```
+## now next time
+
+To run bot
+1. activate conda 
+```
+conda activate bot_env
+```
+2. run bot 
+```
+python try_test.py
+```
+
+You need to set sounddevicees in sys config.
+To get info of sounddevices use command
+
+```
+python -m sounddevices
+```
+Choose input and output device number with 2/2 inout channel.
+
+
+For local try user `python try_test.py`; 
 When you are using try you have to mentioned that in sys_conf > running_mode
 i.e. 
 running_mode = 'TRY'
